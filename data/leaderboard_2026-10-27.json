@@ -1,0 +1,536 @@
+{
+  "type": "leaderboard_data",
+  "version": 1,
+  "players": [
+    {
+      "id": "1791226468231mqt6lolhn",
+      "name": "Abel Santiago Escalante Patiño",
+      "score": 2,
+      "history": [
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231lp2p4x6my",
+      "name": "Ananya Sinha",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "179122646823132jxbonet",
+      "name": "Andre Johnson",
+      "score": 3,
+      "history": [
+        1,
+        1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231mqj4fzsop",
+      "name": "Angad Anantula",
+      "score": 7,
+      "history": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "179122646823168fy10xcl",
+      "name": "Ashwath Ramesh",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231f7uvhiwu3",
+      "name": "Bryce Teasdell",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231rtwrxxbb3",
+      "name": "Christopher Mata",
+      "score": 2,
+      "history": [
+        1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "17912264682312e9bxphks",
+      "name": "Dante Garcia",
+      "score": 2,
+      "history": [
+        1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231fp02qk3fd",
+      "name": "Dev Kirodian",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231436p7ymvq",
+      "name": "Divyam KC",
+      "score": 2,
+      "history": [
+        1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231dnfcir9so",
+      "name": "Ehren wang",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231bctabh6ym",
+      "name": "Ezhilan Durai Anandhan",
+      "score": 2,
+      "history": [
+        1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231g5iylt9ye",
+      "name": "Gabrielle Bailey",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231f2idsanot",
+      "name": "Haris Younis",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231tugruf6bm",
+      "name": "Inge Massmann",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231ddebi7y0h",
+      "name": "James Stewart",
+      "score": 7,
+      "history": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231ylgzhr0uc",
+      "name": "Luis Fernando Farias",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231917r8eg1n",
+      "name": "Luke brendese",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "179122646823115fnx2r5f",
+      "name": "Lyon Tan",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231k5ru2v4qn",
+      "name": "Manav Pillai",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231rufy0rc16",
+      "name": "Matthew Fanelli",
+      "score": 2,
+      "history": [
+        1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "179122646823178b08licq",
+      "name": "Maxwell Galdun",
+      "score": 2,
+      "history": [
+        1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "17912264682312bxd91jz4",
+      "name": "Mika Forsblom",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231z73qd3ust",
+      "name": "Neil Chatterjee",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231lvznc6gad",
+      "name": "Nicolas Tovar",
+      "score": 2,
+      "history": [
+        1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231np52aazn2",
+      "name": "Rayaan Wadhawan",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231s23njknau",
+      "name": "Revanth Kalamegam",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "17912264682317enicitvd",
+      "name": "Reyansh Iyer",
+      "score": 3,
+      "history": [
+        1,
+        1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231obk886xpr",
+      "name": "Ridit Pyarsani",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "17912264682313dux34c0s",
+      "name": "Robert Kilin",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231dvsmvqjwz",
+      "name": "Samridh Gopinath",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "17912264682313om7fh4fc",
+      "name": "Sasmit Sarode",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231cptm45lbk",
+      "name": "Srishaan Koniki",
+      "score": 3,
+      "history": [
+        1,
+        1,
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "17912264682312mwb66yfo",
+      "name": "Suhas Pudi",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "17912264682318hfcxnyc2",
+      "name": "Susri Revanth Vaddi",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231cacpzm49v",
+      "name": "Suvas Sureneni",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231izxqxzikk",
+      "name": "Swara Kagwade",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "179122646823199l9e8a3r",
+      "name": "Utkarsh Sharma",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791226468231b02kc0r9d",
+      "name": "Yathin Yellari",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791226468231
+    },
+    {
+      "id": "1791487562277eludlpx6m",
+      "name": "Platon Polupanov",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791487562277
+    },
+    {
+      "id": "1791487562277qnxys93ah",
+      "name": "Khalid Farah",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791487562277
+    },
+    {
+      "id": "1791487562277nb9qf7ux6",
+      "name": "Jehad Farag",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791487562277
+    },
+    {
+      "id": "1791487562277567i5sznv",
+      "name": "Julian Guerrero",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1791487562277
+    },
+    {
+      "id": "1791487562277b52ngb952",
+      "name": "Sophia Manos",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791487562277
+    },
+    {
+      "id": "1791487562277aes30r34r",
+      "name": "Spandan Chakrabarti",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791487562277
+    },
+    {
+      "id": "179148756227702tgyflpx",
+      "name": "Rowan Ennis",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791487562277
+    },
+    {
+      "id": "1791487562277omk5lhdkk",
+      "name": "Nili Desai",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791487562277
+    },
+    {
+      "id": "17914875622784hx5zftrf",
+      "name": "Joshua Kong",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791487562278
+    },
+    {
+      "id": "1791487562278r7rjmw2as",
+      "name": "Devansh Vaish",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1791487562278
+    },
+    {
+      "id": "1792071697670kzg6ppzo0",
+      "name": "Owen Yuan",
+      "score": 0,
+      "history": [],
+      "status": "active",
+      "createdAt": 1792071697670
+    },
+    {
+      "id": "179235656936635amcyfhs",
+      "name": "Alikhan Dolov",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1792356569366
+    },
+    {
+      "id": "1792699296570n9lpfdzdn",
+      "name": "Aniket Bhat",
+      "score": 1,
+      "history": [
+        1
+      ],
+      "status": "active",
+      "createdAt": 1792699296570
+    }
+  ],
+  "pointSettings": {
+    "btn1": 5,
+    "btn2": 1,
+    "btn3": 0,
+    "btn4": -1
+  },
+  "appSettings": {
+    "greenScreenMode": false,
+    "viewMode": "minimal",
+    "activeMode": "leaderboard",
+    "maxLeaderboardItems": 10,
+    "fontFamily": "sans",
+    "textColor": "#ffffff",
+    "textShadow": true,
+    "soundEnabled": true,
+    "confettiEnabled": true,
+    "highlightTopN": 3,
+    "enableSecondaryDetails": false,
+    "displayElements": {
+      "showAvatar": true,
+      "showName": true,
+      "showBackground": true,
+      "showHistory": true
+    }
+  },
+  "history": []
+}

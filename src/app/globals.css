@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+/* Dark mode is driven by a `dark` class on <html> (set before paint from the
+   saved preference or the OS setting; see ThemeScript). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display-face), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono-face), ui-monospace, SFMono-Regular, monospace;
+
+  --color-navy-50: #dbe6f7;
+  --color-navy-100: #c6d6ef;
+  --color-navy-200: #b3c2da;
+  --color-navy-300: #8197bb;
+  --color-navy-400: #57709b;
+  --color-navy-500: #3b5480;
+  --color-navy-600: #2a4068;
+  --color-navy-700: #1d3054;
+  --color-navy-800: #142441;
+  --color-navy-900: #0d1a31;
+  --color-navy-950: #081123;
+
+  --color-growth-50: #e8f9f2;
+  --color-growth-100: #c9f1e2;
+  --color-growth-200: #95e3c7;
+  --color-growth-300: #5fd6ab;
+  --color-growth-400: #22c08d;
+  --color-growth-500: #00ae7b;
+  --color-growth-600: #00845e;
+  --color-growth-700: #006e4f;
+  --color-growth-800: #065c44;
+
+  --color-loss-50: #fdf0ef;
+  --color-loss-600: #c2413a;
+  --color-loss-700: #a1322c;
+
+  --color-gold-50: #fdf7e6;
+  --color-gold-200: #f1d98a;
+  --color-gold-400: #d9ae2f;
+  --color-gold-600: #a77c0b;
+  --color-gold-800: #6b4f06;
+
+  --color-silver-50: #f3f5f8;
+  --color-silver-200: #d3d9e2;
+  --color-silver-400: #9aa6b6;
+  --color-silver-600: #637084;
+  --color-silver-800: #3c4656;
+
+  --color-bronze-50: #fbf1ea;
+  --color-bronze-200: #ebc3a3;
+  --color-bronze-400: #c27d4b;
+  --color-bronze-600: #965427;
+  --color-bronze-800: #5f3417;
+
+  --color-surface: #eaf1fc;
+  --color-card: #ffffff;
+  --color-primary: #0d1a31;
+  --color-primary-hover: #1d3054;
+  --color-on-primary: #ffffff;
+
+  --animate-flash: flash 1.6s ease-out;
+  --animate-fade-up: fade-up 0.35s ease-out both;
+  --animate-toast-in: toast-in 0.25s ease-out both;
+
+  @keyframes flash {
+    0% { background-color: var(--color-growth-100); }
+    100% { background-color: transparent; }
+  }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes toast-in {
+    from { opacity: 0; transform: translateY(8px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+}
+
+/* ── Dark theme ───────────────────────────────────────────────────────────
+   Components are written against the light palette. In dark mode the
+   neutral (navy) scale is flipped so "text-navy-900" stays the
+   high-contrast text colour, and the tint shades (50/100/200) and
+   on-tint text shades (600–800) of each accent swap roles. */
+.dark {
+  color-scheme: dark;
+  --color-surface: #0d1a31;
+  --color-card: #13233d;
+  --color-primary: #e6ecf5;
+  --color-primary-hover: #ffffff;
+  --color-on-primary: #0d1a31;
+
+  --color-navy-50: #15243d;
+  --color-navy-100: #1f304d;
+  --color-navy-200: #2c4063;
+  --color-navy-300: #5b7199;
+  --color-navy-400: #8a9cbc;
+  --color-navy-500: #a3b2cc;
+  --color-navy-600: #bfcae0;
+  --color-navy-700: #d3dbea;
+  --color-navy-800: #e2e8f3;
+  --color-navy-900: #eef2f9;
+  --color-navy-950: #f7f9fc;
+
+  --color-growth-50: #0b2a20;
+  --color-growth-100: #0e3a2b;
+  --color-growth-200: #15573f;
+  --color-growth-700: #5fd6ab;
+  --color-growth-800: #95e3c7;
+
+  --color-loss-50: #3a1513;
+  --color-loss-700: #ff9b93;
+
+  --color-gold-50: #251d09;
+  --color-gold-200: #5a4713;
+  --color-gold-600: #e3b93f;
+  --color-gold-800: #f3dc93;
+
+  --color-silver-50: #182131;
+  --color-silver-200: #334055;
+  --color-silver-600: #b5c0cf;
+  --color-silver-800: #dfe5ee;
+
+  --color-bronze-50: #2a190d;
+  --color-bronze-200: #5e3a20;
+  --color-bronze-600: #e1a072;
+  --color-bronze-800: #f3cfb3;
+}
+
+/* Chart-grid texture: the header band in both themes, and the whole page in
+   dark mode. 48px squares anchored at the page's top-left, so the header's
+   lines continue seamlessly into the page. */
+:root {
+  --grid-line: rgb(13 26 49 / 0.07);
+}
+.dark {
+  --grid-line: rgb(255 255 255 / 0.07);
+}
+.chart-grid,
+.dark body {
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-surface);
+    color: var(--color-navy-900);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-growth-400);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  dialog::backdrop {
+    background: rgb(8 17 35 / 0.55);
+    backdrop-filter: blur(2px);
+  }
+  ::selection {
+    background: var(--color-growth-200);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
